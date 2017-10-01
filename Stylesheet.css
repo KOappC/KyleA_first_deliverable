@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Orbitron');
+
+nav{
+    font-family: Orbitron, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #31152B;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header {
+    font-size: 32px;
+    font-weight: 700;
+    color: #E6B098;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    background-color: #723147;
+    font-family: Orbitron, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #F9E4AD;
+    margin: 0;
+    max-width: 100%;
+}
+
+a:link {
+    color: #E6B098;
+}
+
+a:visited {
+    color: #E6B098;
+}
+
+a:hover {
+    color: #723147;
+}
+
+.facts {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.favorites {
+    width: 30%;
+    margin: auto;
+    font-size: 18px;
+}
+
+.images {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.images img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px #E6B098;
+}
+
+#banner-logo {
+    display: flex;
+    align-tems: flex-end;
+    max-width: 100%;
+}
+
+#thanks {
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Droid Serif";
+}
+
+#form {
+    display: block;
+    position: relative;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #F9E4AD;
+}
+
+#form div {
+    padding: 2px;
+}
+
+@media (max-width: 768px) {
+
+}
